@@ -1,0 +1,27 @@
+https://codepen.io/CodingDuchess/full/Rwwjrzo
+
+ Stretch Questions/Answers:
+ 
+ 1. What is the difference between an inline element and a block element? 
+ Block Elements - always start on a new line and stretches as far as it can go (L & R).
+ Inline Elements - doesn't start on a new line and only uses the amount of width it needs.
+
+ 2. What happens when an element is positioned absolutely? 
+ It's taken out of the flow.  Then, other elements are positioned as if it didn't exist.
+ 
+ 3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+ Use the box model and set the width.
+ 
+ 4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default 
+ Display block - <div>, <header>, <p>
+ Display inline - <a>, <span>
+ Display inline-block - none
+
+ 5. In your own words, explain the box model. 
+
+ It's the model CSS uses which allows the developer to customize the rectangular box each element is assigned.
+ It calculates the size of the box.   Within each 'box', the font color, background color, forders, padding, margins, etc. may be changed.
+
+ 6. What is the fix for the box model? 
+  The problem with the box model is that it adds padding and borders onto the width and height.
+  The fix is box-sizing: border-box
